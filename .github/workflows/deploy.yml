@@ -24,3 +24,5 @@ jobs:
 
     - name: Push Docker Image
       run: docker push kum2/app:latest
+
+      
