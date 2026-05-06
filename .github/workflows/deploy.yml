@@ -23,5 +23,5 @@ jobs:
       run: docker build -t kum2/app:latest .
 
     - name: Push Docker Image
-      run: docker push kum2/app:latest
+      run: docker push kum2/app:latest  
 
